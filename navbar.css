@@ -1,0 +1,41 @@
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav {
+    margin: auto;
+    background-color: dimgray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: auto;
+    position: fixed;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 0%;
+    left: 0; 
+    top: 0;
+    width: 100%;
+    list-style: none;
+
+
+}
+
+#nav li {
+    float: left;
+    padding: 10px;
+
+}
+
+#Logo img {
+    float: left;
+    display: block;
+    max-block-size: 50px;
+    min-block-size: 10px;
+    block-size: auto;
+}
+
+#nav li:hover {
+background-color: lightslategrey;
+font-weight: bold;
+}
